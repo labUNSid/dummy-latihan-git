@@ -9,4 +9,9 @@ class Dashboard extends BaseController
         // tampilan utama
         return view('welcome_message');
     }
+
+    public function jadwal()
+    {
+        // menampilkan jadwal yang sudah ada
+    }
 }
