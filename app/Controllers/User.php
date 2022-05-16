@@ -12,4 +12,9 @@ class User extends BaseController
     public function edit()
     {
     }
+
+    public function nyoboslur()
+    {
+        return view('hello gar');
+    }
 }
