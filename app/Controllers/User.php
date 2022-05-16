@@ -8,6 +8,11 @@ class User extends BaseController
     {
         return view('welcome_message');
     }
+
+    public function edit()
+    {
+    }
+
     public function nyoboslur()
     {
         return view('hello gar');
